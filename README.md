@@ -33,7 +33,7 @@ Trackpad: VoodooI2C makes it buttery-smooth, supports all the macOS gestures
 2. Built-in Wifi (Must be replaced)
 ```
 
-##Credits
+## Credits
 
 [**FallenChromium**](https://github.com/FallenChromium/Acer-Swift3-2018-hackintosh) for the fix
 

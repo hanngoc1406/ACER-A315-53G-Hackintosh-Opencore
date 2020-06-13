@@ -17,13 +17,24 @@ Update to macOS 10.15.5
   * SSD: Western Digital Green 240GB M.2 2280 SATA 3
 - Dual Boot:
   * Windows 10 Pro
-  * MacOS Catalina 
+  * MacOS Catalina
+
+```
+## What is working
+```
+Graphics: Intel UHD Graphics 620 1536 МB
+Audio: Speakers, headphones and internal mic
+Trackpad: VoodooI2C makes it buttery-smooth, supports all the macOS gestures
 ```
 
 ## Known not work
 ```
 1. Discrete Graphics: GeForce MX130 2 GB GDDR5 (Disabled - MacOS not supported optimus)
 2. Built-in Wifi (Must be replaced)
-3. Trackpad(Fixing)
 ```
+
+##Credits
+
+[**FallenChromium**](https://github.com/FallenChromium/Acer-Swift3-2018-hackintosh) for the fix
+
 

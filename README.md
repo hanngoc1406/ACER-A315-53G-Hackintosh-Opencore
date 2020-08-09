@@ -1,6 +1,6 @@
 # Acer A315-53G-5790
 
-Update to macOS Big Sur beta 2 
+Update to macOS Catalina 10.15.6 and Big Sur beta 2 
 
 ## Specification
 ```

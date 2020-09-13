@@ -36,5 +36,6 @@ Trackpad: VoodooI2C makes it buttery-smooth, supports all the macOS gestures
 ## Credits
 
 [**FallenChromium**](https://github.com/FallenChromium/Acer-Swift3-2018-hackintosh) for the fix
+[**XiaoMi-Pro-Hackintosh**](https://github.com/daliansky/XiaoMi-Pro-Hackintosh) for the fix
 
 

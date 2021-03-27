@@ -1,20 +1,20 @@
 # Acer A315-53G-5790
+Update to macOS Big Sur 11.2.2
 
-Update to macOS Catalina 10.15.6 and Big Sur beta 2 
+![about](https://github.com/hanngoc1406/ACER-A315-53G-Hackintosh-Opencore/blob/master/Images/Screen%20Shot%202021-03-27%20at%2022.05.05.png)
 
 ## Specification
 ```
-- Name: Acer A315-53G
+- Name: Acer A315-53G-5790
 - Processor: Intel Core i5-8250U
 - Wifi: Qualcomm Atheros QCA9377 Wireless
 - Audio: Realtek ALC255
 - Graphics: 
   * IGP: Intel UHD Graphics 620
   * Discrete: NVIDIA GeForce MX130 2GB GDDR5
-- Display: 15.6" ( 1366 x 768 ) 
+- Display: 15.6" ( 1920 x 1080 ) 
 - Storage:
-  * HDD: 500GB HDD 5400RPM 
-  * SSD: Western Digital Green 240GB M.2 2280 SATA 3
+  * SSD: Western Digital Green 240GB M.2 2280 SATA 3 + HP S700 500Gb
 - Dual Boot:
   * Windows 10 Pro
   * MacOS Catalina
@@ -25,6 +25,7 @@ Update to macOS Catalina 10.15.6 and Big Sur beta 2
 Graphics: Intel UHD Graphics 620 1536 МB
 Audio: Speakers, headphones and internal mic
 Trackpad: VoodooI2C makes it buttery-smooth, supports all the macOS gestures
+Built-in Wifi + Bluetooth: Replaced with BCM94360CS2 for native wifi + bluetooth support
 ```
 
 ## Known not work

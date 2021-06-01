@@ -19,10 +19,10 @@ Save my EFI purpose
 
 ## What is working
 
-Graphics: Intel UHD Graphics 620 1536 МB
-Audio: Speakers, headphones and internal mic
-Trackpad: VoodooI2C makes it buttery-smooth, supports all the macOS gestures
-Built-in Wifi: Replaced with Intel AC8260 using [OpenIntelWireless](https://github.com/OpenIntelWireless) 
+- Graphics: Intel UHD Graphics 620 1536 МB 
+- Audio: Speakers, headphones and internal mic
+- Trackpad: VoodooI2C makes it buttery-smooth, supports all the macOS gestures 
+- Built-in Wifi: Replaced with Intel AC8260 using [OpenIntelWireless](https://github.com/OpenIntelWireless) 
 
 ## Known not work
 ```

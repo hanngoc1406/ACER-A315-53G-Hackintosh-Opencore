@@ -11,23 +11,22 @@ Save my EFI purpose
 | Computer model      | Acer A315-53G-5790     |
 | Processor           | Intel Core i5-8250U             |
 | Memory              | 8GB/4GB Sk Hynix DDR4 2133MHz              |
-| Hard Disk           | WD Green 240GB M.2 2280 + HP S70         |
+| Hard Disk           | WD Green 240GB M.2 2280 + HP S700         |
 | Integrated Graphics | Intel UHD Graphics 620                     |
 | Sound Card          | Realtek ALC255                             |
 | Wireless Card       | Intel(R) Wireless-AC 8260                  |
 | Touchpad            | I2C HID based                              |
 
 ## What is working
-```
+
 Graphics: Intel UHD Graphics 620 1536 МB
 Audio: Speakers, headphones and internal mic
 Trackpad: VoodooI2C makes it buttery-smooth, supports all the macOS gestures
 Built-in Wifi: Replaced with Intel AC8260 using [OpenIntelWireless](https://github.com/OpenIntelWireless) 
-```
 
 ## Known not work
 ```
-1. Discrete Graphics: GeForce MX130 2 GB GDDR5 (Disabled - MacOS not supported optimus)
+1. Discrete Graphics: GeForce MX130 (Disabled - MacOS not supported optimus)
 2. Built-in Wifi (Must be replaced)
 ```
 

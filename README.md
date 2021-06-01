@@ -1,31 +1,28 @@
 # Acer A315-53G-5790
 Update to macOS Big Sur 11.2.2
+Save my EFI purpose
 
 ![about](https://github.com/hanngoc1406/ACER-A315-53G-Hackintosh-Opencore/blob/master/Images/Screen%20Shot%202021-03-27%20at%2022.05.05.png)
 
 ## Specification
-```
-- Name: Acer A315-53G-5790
-- Processor: Intel Core i5-8250U
-- Wifi: Qualcomm Atheros QCA9377 Wireless
-- Audio: Realtek ALC255
-- Graphics: 
-  * IGP: Intel UHD Graphics 620
-  * Discrete: NVIDIA GeForce MX130 2GB GDDR5
-- Display: 15.6" ( 1920 x 1080 ) 
-- Storage:
-  * SSD: Western Digital Green 240GB M.2 2280 SATA 3 + HP S700 500Gb
-- Dual Boot:
-  * Windows 10 Pro
-  * MacOS Catalina
 
-```
+| Specifications | Detail                                          |
+| ------------------- | -------------------------------------------|
+| Computer model      | Acer A315-53G-5790     |
+| Processor           | Intel Core i5-8250U             |
+| Memory              | 8GB/4GB Sk Hynix DDR4 2133MHz              |
+| Hard Disk           | WD Green 240GB M.2 2280 + HP S70         |
+| Integrated Graphics | Intel UHD Graphics 620                     |
+| Sound Card          | Realtek ALC255                             |
+| Wireless Card       | Intel(R) Wireless-AC 8260                  |
+| Touchpad            | I2C HID based                              |
+
 ## What is working
 ```
 Graphics: Intel UHD Graphics 620 1536 МB
 Audio: Speakers, headphones and internal mic
 Trackpad: VoodooI2C makes it buttery-smooth, supports all the macOS gestures
-Built-in Wifi + Bluetooth: Replaced with BCM94360CS2 for native wifi + bluetooth support
+Built-in Wifi: Replaced with Intel AC8260 using [OpenIntelWireless](https://github.com/OpenIntelWireless) 
 ```
 
 ## Known not work
@@ -36,8 +33,7 @@ Built-in Wifi + Bluetooth: Replaced with BCM94360CS2 for native wifi + bluetooth
 
 ## Credits
 
-[**FallenChromium**](https://github.com/FallenChromium/Acer-Swift3-2018-hackintosh) for the fix
-
-[**XiaoMi-Pro-Hackintosh**](https://github.com/daliansky/XiaoMi-Pro-Hackintosh) for the fix
-
-
+- **Special thanks** to [Acidanthera](https://github.com/acidanthera) for providing [AppleALC](https://github.com/acidanthera/AppleALC), [AppleSupportPkg](https://github.com/acidanthera/AppleSupportPkg), [HibernationFixup](https://github.com/acidanthera/HibernationFixup), [Lilu](https://github.com/acidanthera/Lilu), [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [VoodooPS2](https://github.com/acidanthera/VoodooPS2), and [WhateverGreen](https://github.com/acidanthera/WhateverGreen).
+- Thanks to [RehabMan](https://github.com/RehabMan) for providing [SATA-unsupported](https://github.com/RehabMan/hack-tools/tree/master/kexts/SATA-unsupported.kext).
+- Thanks to [VoodooI2C](https://github.com/VoodooI2C) for providing [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C).
+- A huge thanks to the opencore community, I couldn't stress enough the support I got to make this a success. [Reddit](https://www.reddit.com/r/hackintosh/) 

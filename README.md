@@ -1,8 +1,8 @@
 # Acer A315-53G-5790
-Update to macOS Big Sur 11.2.2
-Save my EFI purpose
+- Update to macOS Big Sur 11.4 and Monterey 12.0 beta 1
+- Save my EFI purpose
 
-![about](https://github.com/hanngoc1406/ACER-A315-53G-Hackintosh-Opencore/blob/master/Images/Screen%20Shot%202021-03-27%20at%2022.05.05.png)
+![about](https://github.com/hanngoc1406/ACER-A315-53G-Hackintosh-Opencore/blob/master/Images/Screen%20Shot%202021-06-13%20at%2016.16.06.png)
 
 ## Specification
 

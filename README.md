@@ -1,8 +1,8 @@
 # Acer A315-53G-5790
-- Update to macOS Big Sur 11.4 and Monterey 12.0 beta 1
+- Update to macOS Monterey 12.2.1
 - Save my EFI purpose
 
-![about](https://github.com/hanngoc1406/ACER-A315-53G-Hackintosh-Opencore/blob/master/Images/Screen%20Shot%202021-06-13%20at%2016.16.06.png)
+![about](https://raw.githubusercontent.com/hanngoc1406/ACER-A315-53G-Hackintosh-Opencore/master/Images/Screen%20Shot%202022-02-20%20at%2021.51.51.png)
 
 ## Specification
 
@@ -14,7 +14,7 @@
 | Hard Disk           | WD Green 240GB M.2 2280 + HP S700         |
 | Integrated Graphics | Intel UHD Graphics 620                     |
 | Sound Card          | Realtek ALC255                             |
-| Wireless Card       | Intel(R) Wireless-AC 8260                  |
+| Wireless Card       | Intel(R) Wireless-AC 7265                  |
 | Touchpad            | I2C HID based                              |
 
 ## What is working
@@ -22,7 +22,8 @@
 - Graphics: Intel UHD Graphics 620 1536 МB 
 - Audio: Speakers, headphones and internal mic
 - Trackpad: VoodooI2C makes it buttery-smooth, supports all the macOS gestures 
-- Built-in Wifi: Replaced with Intel AC8260 using [OpenIntelWireless](https://github.com/OpenIntelWireless) 
+- Intel-Wifi: Replaced with Intel AC7265 using [itlwm](https://github.com/OpenIntelWireless/itlwm) 
+- Intel-Bluetooth may not work on macOS 12.x but you can try [What additional steps should I do to make Bluetooth work on macOS Monterey](https://openintelwireless.github.io/IntelBluetoothFirmware/FAQ.html#what-additional-steps-should-i-do-to-make-bluetooth-work-on-macos-monterey)  
 
 ## Known not work
 ```
@@ -33,6 +34,6 @@
 ## Credits
 
 - **Special thanks** to [Acidanthera](https://github.com/acidanthera) for providing [AppleALC](https://github.com/acidanthera/AppleALC), [AppleSupportPkg](https://github.com/acidanthera/AppleSupportPkg), [HibernationFixup](https://github.com/acidanthera/HibernationFixup), [Lilu](https://github.com/acidanthera/Lilu), [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [VoodooPS2](https://github.com/acidanthera/VoodooPS2), and [WhateverGreen](https://github.com/acidanthera/WhateverGreen).
-- Thanks to [RehabMan](https://github.com/RehabMan) for providing [SATA-unsupported](https://github.com/RehabMan/hack-tools/tree/master/kexts/SATA-unsupported.kext).
-- Thanks to [VoodooI2C](https://github.com/VoodooI2C) for providing [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C).
+- Thanks to [daliansky](https://github.com/daliansky) for providing [VoodooI2C](https://github.com/VoodooI2C/VoodooI2C).
+- Thanks to [VoodooI2C](https://github.com/VoodooI2C) for his great work with [XiaoMi-Pro-Hackintosh](https://github.com/daliansky/XiaoMi-Pro-Hackintosh).
 - A huge thanks to the opencore community, I couldn't stress enough the support I got to make this a success. [Reddit](https://www.reddit.com/r/hackintosh/) 

@@ -1,8 +1,12 @@
 # Acer A315-53G-5790
-- Update to macOS Monterey 12.2.1
+- Update to macOS 14 Sonoma DP 1
 - Save my EFI purpose
 
-![about](https://raw.githubusercontent.com/hanngoc1406/ACER-A315-53G-Hackintosh-Opencore/master/Images/Screen%20Shot%202022-02-20%20at%2021.51.51.png)
+![about](Images/Screenshot%202023-06-06%20at%2023.59.17.png)
+
+## Sonoma beta notes
+- add boot-args -lilubetaall and reset NVRAM
+- wifi work with itlwm.kext and Heliport
 
 ## Specification
 

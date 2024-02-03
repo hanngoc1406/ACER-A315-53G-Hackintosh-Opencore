@@ -1,3 +1,4 @@
+# "I have switched to a real Mac device, so it's time to say goodbye!"
 # Acer A315-53G-5790
 - Update to macOS 14 Sonoma DP 1
 - Save my EFI purpose
